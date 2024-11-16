@@ -7,7 +7,7 @@ from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables.history import RunnableWithMessageHistory
 
 # Bedrock 클라이언트 설정
-bedrock_runtime = boto3.client(service_name="bedrock-runtime", region_name="us-east-1")
+bedrock_runtime = boto3.client(service_name="bedrock-runtime", region_name="us-east-2")
 
 # Claude 3.5 파라미터 설정
 model_kwargs =  { 
