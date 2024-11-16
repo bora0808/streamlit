@@ -1,4 +1,8 @@
 streamlit
+langchain_aws
+langchain_community
+langchain_core
+langchain
 boto3
 pandas
 numpy
